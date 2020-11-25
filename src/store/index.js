@@ -21,7 +21,7 @@ const store = new Vuex.Store({
   },
   state() {
     return {
-      api_key: '9436950aed01e5d0f8d81b8672c7a6be',
+      api_key: '', //your apikey here
       isLoading: false
     }
   }
