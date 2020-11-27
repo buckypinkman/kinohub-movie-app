@@ -15,11 +15,9 @@
 .fa-chevron-right {
   color: rgb(35, 123, 255);
 }
-
 .fa-chevron-left {
   color: rgb(35, 123, 255);
 }
-
 @media only screen and (max-width: 576px) {
   .VueCarousel-navigation-prev {
     transform: translate(-17%, -50%) !important;
