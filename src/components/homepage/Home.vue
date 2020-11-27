@@ -72,7 +72,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   .poster {
-    max-width: 160px;
+    max-width: 135px;
   }
 }
 

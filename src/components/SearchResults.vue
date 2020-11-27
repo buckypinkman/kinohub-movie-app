@@ -17,7 +17,7 @@
             <placeholder v-if="result.poster_path == null" />
             <img
               :src="'http://image.tmdb.org/t/p/w500' + result.poster_path"
-              class="img-fluid poster"
+              class="img-fluid search-poster"
               alt=""
             />
             <div class="search-title pl-2 py-3">
@@ -101,9 +101,24 @@ a {
   color: white;
 }
 
+.search-poster {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-poster:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 11px rgba(3, 3, 3, 0.822);
+}
+
 @media only screen and (max-width: 768px) {
   .card-wrap {
-    width: 51rem;
+    max-width: 10rem;
   }
+
+  .search-poster {
+    max-width: 130px;
+  }
+
 }
 </style>
