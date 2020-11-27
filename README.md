@@ -20,7 +20,7 @@ pnpm run build
 ```
 pnpm run lint
 ```
-### Dont forget to register your own tmdbdb apikey and put it in store/index.js
+### Dont forget to register your own tmdb apikey and put it in store/index.js
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
