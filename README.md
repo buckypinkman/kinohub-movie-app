@@ -1,4 +1,5 @@
 # kinohub-movie-app
+[Live Web](https://kinohub.netlify.app).
 
 ## Project setup
 ```
@@ -19,6 +20,7 @@ pnpm run build
 ```
 pnpm run lint
 ```
+### Dont forget to register your own tmdbdb apikey and put it in store/index.js
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
