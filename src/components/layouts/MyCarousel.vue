@@ -1,6 +1,6 @@
 <template>
   <carousel
-    :perPage="6"
+    :perPageCustom="[[320,2],[768,6]]"
     :paginationEnabled="false"
     :spacePadding="5"
     :navigationEnabled="true"
