@@ -1,7 +1,7 @@
 <template>
   <div class="" id="topRatedMovies">
     <h1 class="title">Top Rated Movies</h1>
-    <carousel :perPage="6" :paginationEnabled="false" :spacePadding="5">
+    <my-carousel>
       <slide v-for="result in computedResults" :key="result.id">
         <div class="img-wrap mr-4 p-1">
           <router-link
@@ -15,7 +15,7 @@
           </router-link>
         </div>
       </slide>
-    </carousel>
+    </my-carousel>
   </div>
 </template>
 

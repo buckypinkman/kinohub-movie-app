@@ -38,16 +38,16 @@ export default {
   name: "hero",
   computed: {
     computedResults() {
-      return this.$store.getters.heroResults
-    }
+      return this.$store.getters.heroResults;
+    },
   },
   methods: {
     getResults() {
-      this.$store.dispatch('heroResults')
-    }
+      this.$store.dispatch("heroResults");
+    },
   },
   created() {
-    this.getResults()
+    this.getResults();
   },
 };
 </script>

@@ -24,6 +24,14 @@ const store = new Vuex.Store({
       api_key: '', //your apikey here
       isLoading: false
     }
+  },
+  getters: {
+    chevRight() {
+      return "<i class='fas fa-chevron-right fa-2x'></i>"
+    },
+    chevLeft() {
+      return "<i class='fas fa-chevron-left fa-2x'></i>"
+    }
   }
 })
 

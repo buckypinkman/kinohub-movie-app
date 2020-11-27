@@ -75,7 +75,7 @@
       </div>
       <div class="row cast long-mr">
         <h2 class="mb-4">CASTS</h2>
-        <carousel :perPage="6" :paginationEnabled="false" :spacePadding="5">
+        <my-carousel>
           <h4 v-if="casts.length == 0">No data available.</h4>
           <slide v-for="result in casts" :key="result.id" v-else>
             <div class="img-wrap mr-4 p-2">
@@ -91,11 +91,11 @@
               </div>
             </div>
           </slide>
-        </carousel>
+        </my-carousel>
       </div>
       <div class="row cast long-mr">
         <h2 class="mb-4">Similiar TV Shows</h2>
-        <carousel :perPage="6" :paginationEnabled="false" :spacePadding="5">
+        <my-carousel>
           <h4 v-if="similiarItem.length == 0">No data available.</h4>
           <slide v-for="result in similiarItem" :key="result.id" v-else>
             <div class="img-wrap mr-4 p-2">
@@ -114,7 +114,7 @@
               </div>
             </div>
           </slide>
-        </carousel>
+        </my-carousel>
       </div>
       <div class="row mt-5">
         <router-link :to="{ name: 'Home' }">
