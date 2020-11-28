@@ -1,6 +1,6 @@
 <template>
   <div id="searchResult">
-    <spinner/>
+    <spinner v-if="$store.state.isLoading" />
     <navbar />
     <div class="container mt-4">
       <h2 v-if="movResults.length || tvResults.length == 0">Movie not found.</h2>
