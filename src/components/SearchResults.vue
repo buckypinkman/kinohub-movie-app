@@ -1,9 +1,10 @@
 <template>
   <div id="searchResult">
-    <spinner v-if="$store.state.isLoading" />
+    <spinner/>
     <navbar />
     <div class="container mt-4">
-      <h2>Search results for : "{{ this.searchQuery }}"</h2>
+      <h2 v-if="movResults.length || tvResults.length == 0">Movie not found.</h2>
+      <h2 v-else>Search results for : "{{ this.searchQuery }}"</h2>
       <div class="row mt-4 justify-content-center">
         <div
           class="card-wrap mt-3 p-3"
