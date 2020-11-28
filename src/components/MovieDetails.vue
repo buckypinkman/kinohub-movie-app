@@ -85,7 +85,7 @@
             </slide>
           </my-carousel>
         </div>
-        <div class="row long-mr">
+        <div class="row mt-5">
           <h2 class="mb-4">Similiar Movies</h2>
           <my-carousel>
             <h4 v-if="similiarItem.length == 0">No data available.</h4>

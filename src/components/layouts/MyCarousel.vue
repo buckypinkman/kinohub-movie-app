@@ -20,10 +20,10 @@
 }
 @media only screen and (max-width: 576px) {
   .VueCarousel-navigation-prev {
-    transform: translate(-17%, -50%) !important;
+    transform: translate(15%, -50%) !important;
   }
   .VueCarousel-navigation-next {
-    transform: translate(17%, -50%) !important;
+    transform: translate(-15%, -50%) !important;
   }
 }
 </style>

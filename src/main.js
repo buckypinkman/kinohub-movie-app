@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import Navbar from './components/UI/Navbar.vue'
-import Placeholder from './components/layouts/Placeholder.vue'
-import Spinner from './components/layouts/Spinner.vue'
+import Placeholder from './components/UI/Placeholder.vue'
+import Spinner from './components/UI/Spinner.vue'
 import VueCarousel from 'vue-carousel'
 import MyCarousel from './components/layouts/MyCarousel.vue'
 Vue.config.productionTip = false

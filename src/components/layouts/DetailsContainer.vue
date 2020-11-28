@@ -73,11 +73,11 @@ h6 {
     text-align: center;
     position: unset;
     transform: translateY(-25%);
-    margin: auto;
+    margin: auto; 
   }
 
   .summary {
-    margin-top: 0;
+    margin-top: -30px;
   }
 
   .content-data {

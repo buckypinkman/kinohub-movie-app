@@ -2,7 +2,7 @@
   <div class="footer py-5">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-6 col-6">
+        <div class="col-md-6 col-7 my-credits">
           <router-link :to="{ name: 'Home' }">
             <a class="footer-brand"><span>Kino</span>hub</a>
           </router-link>
@@ -31,7 +31,7 @@
             <p>Coded and designed by Rangga Dimas</p>
           </div>
         </div>
-        <div class="col-md-3 col-4">
+        <div class="col-md-3 col-5">
           <p>Powered by :</p>
           <img
             class="logo mt-3 mb-5"
@@ -106,6 +106,11 @@ a {
   .link {
     font-size: 13px;
   }
+
+  .my-credits {
+    padding-left: 25px;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
